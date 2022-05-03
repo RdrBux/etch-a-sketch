@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    margin: 1.5vh;
+    margin-bottom: 2.5vh;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 2vh 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #bfaece;
+    border: 2px solid #b99bd3;
+    padding: 3vh 4vh;
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    height: 80vh;
+    justify-content: space-between;
+    flex-shrink: 0;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainDiv {
+    display: flex;
+    margin: 0;
+    flex: 1;
+}
+
+.row {
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #d1d1d1;
+    flex: 1;
+}
+
+button {
+    padding: 1vh 2vh;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-weight: 500;
+    border: 2px solid #b99bd3;
+}
+
+button:hover {
+    background-color: #d1c5db;
+}
+
+.btn {
+    padding: 1vh 1vh;
+}
+
+.clear-grid {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.red {color: #ff0000a1}
+
+.blue {color: #0000ffa1}
+
+.green {color: rgba(0, 128, 0, 0.849)}
+
+.rainbow {
+    background-color: rgba(255, 255, 0, 0.651);
+    color: rgb(240, 0, 240);
+    font-weight: bold;
+    border-color: orangered;
+}
